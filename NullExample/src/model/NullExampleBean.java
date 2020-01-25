@@ -15,7 +15,7 @@ public class NullExampleBean  implements Serializable {
 	/**
 	 * ”íĞÒ”
 	 */
-	private Integer number;
+	private int number;
 
 	public String getCity() {
 		return city;
@@ -25,11 +25,11 @@ public class NullExampleBean  implements Serializable {
 		this.city = city;
 	}
 
-	public Integer getNumber() {
+	public int getNumber() {
 		return number;
 	}
 
-	public void setNumber(Integer number) {
+	public void setNumber(int number) {
 		this.number = number;
 	}
 }
