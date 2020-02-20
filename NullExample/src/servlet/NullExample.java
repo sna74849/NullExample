@@ -65,7 +65,7 @@ public class NullExample extends HttpServlet {
 			if(value.getCity().equals(nullExampleBean.getCity())) {
 				value.setNumber(nullExampleBean.getNumber());
 			}
-			// TODO　Integerを使うのであればnullチェックを行う
+			// TODO縲Integer繧剃ｽｿ縺�縺ｮ縺ｧ縺ゅｌ縺ｰnull繝√ぉ繝�繧ｯ繧定｡後≧
 			int v = value.getNumber();
 			//int v = value.getNumber() == null ? 0 : value.getNumber();
 			total = total + v;

@@ -8,12 +8,12 @@ import java.io.Serializable;
 public class NullExampleBean  implements Serializable {
 
 	/**
-	 * s‹æ’¬‘º–¼
+	 * å¸‚åŒºç”ºæ‘å
 	 */
 	private String city;
 	
 	/**
-	 * ”íĞÒ”
+	 * è¢«ç½è€…æ•°
 	 */
 	private int number;
 
