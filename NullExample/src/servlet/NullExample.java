@@ -66,7 +66,7 @@ public class NullExample extends HttpServlet {
 				value.setNumber(nullExampleBean.getNumber());
 			}
 			// TODO　Integerを使うのであればnullチェックを行う
-			int v = value.getNumber() == null ? 0 : value.getNumber();
+			int v = value.getNumber();
 			total = total + v;
 		}
 		request.setAttribute("total", total);
