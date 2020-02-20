@@ -21,13 +21,13 @@ div {
 %>
 <div>
 		<%=value.getCity()%>：
-		<%=value.getNumber()%>
+		<%=value.getNumber()%>人
 </div>
 <%
 	}
 %>
 <div>
-合計：<%=request.getAttribute("total")%>
+合計被災者数：<%=request.getAttribute("total")%>人
 </div>
 <form action="NullExample" method="post">
 <div>
